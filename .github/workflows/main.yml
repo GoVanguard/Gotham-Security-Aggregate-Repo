@@ -29,7 +29,18 @@ jobs:
       run: |
         echo "# Gotham Security Aggregate Repository - Submodule Information" > README.md
         #git submodule foreach 'echo "- **${name}**: Version: $(git describe --tags --always --dirty), Description: $(git log -1 --pretty=format:"%s")" >> "$GITHUB_WORKSPACE/submodule_info.md"'
-        git submodule foreach 'echo "Processing $name"; git fetch; echo "- **${name}**: Version: $(git describe --tags --always --dirty), Description: $(git log -1 --pretty=format:"%s")" >> "$GITHUB_WORKSPACE/submodule_info.md"'
+        #git submodule foreach 'echo "Processing $name"; git fetch; echo "- **${name}**: Version: $(git describe --tags --always --dirty), Description: $(git log -1 --pretty=format:"%s")" >> "$GITHUB_WORKSPACE/submodule_info.md"'
+        while read -r line; do
+          if [[ "$line" =~ \[submodule\ \"(.*)\"\] ]]; then
+            module="${BASH_REMATCH[1]}"
+            echo "- **$module**" >> $GITHUB_WORKSPACE/submodule_info.md
+          elif [[ "$line" =~ url\ =\ (.*) ]]; then
+            url="${BASH_REMATCH[1]}"
+            echo "  - URL: $url" >> $GITHUB_WORKSPACE/submodule_info.md
+            description=$(curl -s https://api.github.com/repos/${url##*/} | jq -r '.description')
+            echo "  - Description: $description" >> $GITHUB_WORKSPACE/submodule_info.md
+          fi
+        done < .gitmodules
 
 
     - name: Append submodule info to README.md

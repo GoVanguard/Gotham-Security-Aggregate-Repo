@@ -42,6 +42,7 @@ jobs:
 
     - name: Commit and push if changes
       run: |
+        git add README.md
         git add .
         git diff-index --quiet HEAD || git commit -m "Update submodules"
         git push

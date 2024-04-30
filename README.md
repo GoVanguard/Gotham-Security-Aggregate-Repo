@@ -1,43 +1,43 @@
 # Gotham Security Aggregate Repository - Submodule Information
 - **CVE-2022-1388**
   - URL: https://github.com/0xf4n9x/CVE-2022-1388
-  - Description: null
+  - Description: CVE-2022-1388 F5 BIG-IP iControl REST Auth Bypass RCE
 - **Log4jShell_Scanner**
-  - URL: https://github.com/GoVanguard/Log4jShell_Scanner.git
-  - Description: null
+  - URL: https://github.com/GoVanguard/Log4jShell_Scanner
+  - Description: Python script to tamper with pages to test for Log4J Shell vulnerability.
 - **PRET**
   - URL: https://github.com/RUB-NDS/PRET
-  - Description: null
+  - Description: Printer Exploitation Toolkit - The tool that made dumpster diving obsolete.
 - **SIETpy3**
-  - URL: https://github.com/Sab0tag3d/SIETpy3.git
-  - Description: null
+  - URL: https://github.com/Sab0tag3d/SIETpy3
+  - Description: Rewriting SIET to python3
 - **ScoutSuite**
-  - URL: https://github.com/nccgroup/ScoutSuite.git
-  - Description: null
+  - URL: https://github.com/nccgroup/ScoutSuite
+  - Description: Multi-Cloud Security Auditing Tool
 - **SecretSearcher**
-  - URL: https://github.com/GoVanguard/SecretSearcher.git
-  - Description: null
+  - URL: https://github.com/GoVanguard/SecretSearcher
+  - Description: Python re-implementation of the classic SecretScanner shell script
 - **aws-cli**
-  - URL: https://github.com/aws/aws-cli.git
-  - Description: null
+  - URL: https://github.com/aws/aws-cli
+  - Description: Universal Command Line Interface for Amazon Web Services
 - **awsume**
-  - URL: https://github.com/trek10inc/awsume.git
-  - Description: null
+  - URL: https://github.com/trek10inc/awsume
+  - Description: A utility for easily assuming AWS IAM roles from the command line.
 - **cloudsploit**
-  - URL: https://github.com/aquasecurity/cloudsploit.git
-  - Description: null
+  - URL: https://github.com/aquasecurity/cloudsploit
+  - Description: Cloud Security Posture Management (CSPM)
 - **pacu**
   - URL: https://github.com/RhinoSecurityLabs/pacu
-  - Description: null
+  - Description: The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.
 - **pentest-scripts**
-  - URL: https://github.com/GoVanguard/pentest-scripts.git
-  - Description: null
+  - URL: https://github.com/GoVanguard/pentest-scripts
+  - Description: List of pentest related scripts edited or created by GoVanguard
 - **pimpmykali**
   - URL: https://github.com/Dewalt-arch/pimpmykali
-  - Description: null
+  - Description: Kali Linux Fixes for Newly Imported VM's
 - **prowler**
-  - URL: https://github.com/prowler-cloud/prowler.git
-  - Description: null
+  - URL: https://github.com/prowler-cloud/prowler
+  - Description: Prowler is an Open Source Security tool for AWS, Azure, GCP and Kubernetes to do security assessments, audits, incident response, compliance, continuous monitoring, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, GXP, Well-Architected Security, ENS and more
 - **cloud_enum**
   - URL: https://github.com/initstring/cloud_enum
-  - Description: null
+  - Description: Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.

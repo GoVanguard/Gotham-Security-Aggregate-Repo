@@ -1,7 +1,3 @@
-[submodule "AzureSnake"]
-    path = "AzureSnake"
-    url = git@github.com:GoVanguard/AzureSnake.git
-
 [submodule "CVE-2022-1388"]
     path = "CVE-2022-1388"
     url = https://github.com/0xf4n9x/CVE-2022-1388
@@ -9,10 +5,6 @@
 [submodule "Log4jShell_Scanner"]
     path ="Log4jShell_Scanner"
     url = https://github.com/GoVanguard/Log4jShell_Scanner.git
-
-[submodule "Mystik"]
-    path = "Mystik"
-    url = ssh://git@github.com/GoVanguard/Mystik.git
 
 [submodule "PRET"]
     path = "PRET"

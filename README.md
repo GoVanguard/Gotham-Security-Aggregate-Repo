@@ -1,1 +1,15 @@
 # Gotham Security Aggregate Repository - Submodule Information
+- **CVE-2022-1388**: Version: 4e69a4d, Description: Update CVE-2022-1388.py
+- **Log4jShell_Scanner**: Version: c8645cc, Description: Update README.md
+- **PRET**: Version: a04bd04, Description: Merge pull request #82 from Darkiros/master
+- **SIETpy3**: Version: 7147f32, Description: Update siet.py
+- **ScoutSuite**: Version: 5.13.0-1-g967ec547, Description: Update README.md
+- **SecretSearcher**: Version: v1.0.0, Description: Add usage to README
+- **aws-cli**: Version: 1.10.30-8267-g80980daa7, Description: Merge branch 'release-1.32.95' into develop
+- **awsume**: Version: 4.5.5.rc, Description: Merge pull request #258 from trek10inc/release/4.5.5
+- **cloud_enum**: Version: 0.7-7-g0e54b48, Description: Small gift :) nameserverfile + more Azure objects + fuzzing list improved (#65)
+- **cloudsploit**: Version: v3.3.0-243-gd6d52c14, Description: Merge pull request #1973 from muzzamilinovaqo/feature/plugin-aws-workspace-operational-state
+- **pacu**: Version: v1.5.3, Description: Release v1.5.3
+- **pentest-scripts**: Version: 0202c27, Description: Update dorker.py
+- **pimpmykali**: Version: ea910f4, Description: Update README.md
+- **prowler**: Version: 4.0.0-138-g722554ad, Description: chore(mitre azure): add mapping to mitre for azure provider (#3857)

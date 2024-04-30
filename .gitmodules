@@ -57,3 +57,7 @@
 [submodule "prowler"]
     path = "prowler"
     url = https://github.com/prowler-cloud/prowler.git
+
+[submodule "cloud_enum"]
+    path = "cloud_enum"
+    url = https://github.com/initstring/cloud_enum

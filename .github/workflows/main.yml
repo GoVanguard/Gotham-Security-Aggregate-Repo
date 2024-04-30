@@ -36,12 +36,19 @@ jobs:
             echo "- **$module**" >> $GITHUB_WORKSPACE/submodule_info.md
           elif [[ "$line" =~ url\ =\ (.*) ]]; then
             url="${BASH_REMATCH[1]}"
+            # Convert git URL or SSH format to HTTPS format
+            url=$(echo $url | sed -e 's,git@github.com:,https://github.com/,' -e 's,\.git,,g')
             echo "  - URL: $url" >> $GITHUB_WORKSPACE/submodule_info.md
-            description=$(curl -s https://api.github.com/repos/${url##*/} | jq -r '.description')
-            echo "  - Description: $description" >> $GITHUB_WORKSPACE/submodule_info.md
+            response=$(curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -s -w "%{http_code}" -o response.json https://api.github.com/repos/${url#https://github.com/})
+            if [ "$(tail -n 1 <<< "$response")" == "200" ]; then
+              description=$(jq -r '.description' response.json)
+              echo "  - Description: $description" >> $GITHUB_WORKSPACE/submodule_info.md
+            else
+              echo "  - Description: Failed to fetch description" >> $GITHUB_WORKSPACE/submodule_info.md
+            fi
+            rm response.json
           fi
         done < .gitmodules
-
 
     - name: Append submodule info to README.md
       run: |

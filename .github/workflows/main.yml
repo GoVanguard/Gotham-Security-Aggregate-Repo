@@ -27,7 +27,12 @@ jobs:
     - name: Generate submodule info for README.md
       run: |
         echo "# Gotham Security Aggregate Repository - Submodule Information" > README.md
-        git submodule foreach 'echo "- **${name}** - Version: $(git describe --tags --always --dirty), Description: $(git log -1 --pretty=format:"%s")" >> README.md'
+        git submodule foreach 'echo "- **${name}** - Version: $(git describe --tags --always --dirty), Description: $(git log -1 --pretty=format:"%s")" >> $toplevel/submodule_info.md'
+
+    - name: Append submodule info to README.md
+      run: |
+        cat submodule_info.md >> README.md
+        rm submodule_info.md
 
     - name: Commit and push if changes
       run: |

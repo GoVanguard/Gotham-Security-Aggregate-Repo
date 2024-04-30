@@ -1,0 +1,59 @@
+[submodule "AzureSnake"]
+    path = "AzureSnake"
+    url = git@github.com:GoVanguard/AzureSnake.git
+
+[submodule "CVE-2022-1388"]
+    path = "CVE-2022-1388"
+    url = https://github.com/0xf4n9x/CVE-2022-1388
+
+[submodule "Log4jShell_Scanner"]
+    path ="Log4jShell_Scanner"
+    url = https://github.com/GoVanguard/Log4jShell_Scanner.git
+
+[submodule "Mystik"]
+    path = "Mystik"
+    url = ssh://git@github.com/GoVanguard/Mystik.git
+
+[submodule "PRET"]
+    path = "PRET"
+    url = https://github.com/RUB-NDS/PRET
+
+[submodule "SIETpy3"]
+    path = "SIETpy3"
+    url = https://github.com/Sab0tag3d/SIETpy3.git
+
+[submodule "ScoutSuite"]
+    path = "ScoutSuite"
+    url = https://github.com/nccgroup/ScoutSuite.git
+
+[submodule "SecretSearcher"]
+    path = "SecretSearcher"
+    url = https://github.com/GoVanguard/SecretSearcher.git
+
+[submodule "aws-cli"]
+    path = "aws-cli"
+    url = https://github.com/aws/aws-cli.git
+
+[submodule "awsume"]
+    path = "awsume"
+    url = https://github.com/trek10inc/awsume.git
+
+[submodule "cloudsploit"]
+    path = "cloudsploit"
+    url = https://github.com/aquasecurity/cloudsploit.git
+
+[submodule "pacu"]
+    path = "pacu"
+    url = https://github.com/RhinoSecurityLabs/pacu
+
+[submodule "pentest-scripts"]
+    path = "pentest-scripts"
+    url = https://github.com/GoVanguard/pentest-scripts.git
+
+[submodule "pimpmykali"]
+    path = "pimpmykali"
+    url = https://github.com/Dewalt-arch/pimpmykali
+
+[submodule "prowler"]
+    path = "prowler"
+    url = https://github.com/prowler-cloud/prowler.git

@@ -53,3 +53,11 @@
 [submodule "cloud_enum"]
     path = "cloud_enum"
     url = https://github.com/initstring/cloud_enum
+
+[submodule "AzureSnake"]
+    path = "AzureSnake"
+    url = https://github.com/GoVanguard/AzureSnake
+
+[submodule "Mystik"]
+    path = "Mystik"
+    url = https://github.com/GoVanguard/Mystik.git

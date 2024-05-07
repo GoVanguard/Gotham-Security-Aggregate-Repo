@@ -14,6 +14,10 @@
     path = "SIETpy3"
     url = https://github.com/Sab0tag3d/SIETpy3.git
 
+[submodule "ccat"]
+    path = "ccat"
+    url = https://github.com/frostbits-security/ccat.git
+
 [submodule "ScoutSuite"]
     path = "ScoutSuite"
     url = https://github.com/nccgroup/ScoutSuite.git

@@ -11,6 +11,9 @@
 - **SIETpy3**
   - URL: https://github.com/Sab0tag3d/SIETpy3
   - Description: Rewriting SIET to python3
+- **ccat**
+  - URL: https://github.com/frostbits-security/ccat
+  - Description: Cisco Config Analysis Tool
 - **ScoutSuite**
   - URL: https://github.com/nccgroup/ScoutSuite
   - Description: Multi-Cloud Security Auditing Tool
@@ -41,3 +44,9 @@
 - **cloud_enum**
   - URL: https://github.com/initstring/cloud_enum
   - Description: Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+- **AzureSnake**
+  - URL: https://github.com/GoVanguard/AzureSnake
+  - Description: A suite of PowerShell scripts to automate portions of Azure Risk Assessments and Penetration Tests
+- **Mystik**
+  - URL: https://github.com/GoVanguard/Mystik
+  - Description: A Python-based, Rust-core secret searching tool

@@ -49,4 +49,4 @@
   - Description: A suite of PowerShell scripts to automate portions of Azure Risk Assessments and Penetration Tests
 - **Mystik**
   - URL: https://github.com/GoVanguard/Mystik
-  - Description: A Python-based, Rust-core secret searching tool
+  - Description: Failed to fetch description
